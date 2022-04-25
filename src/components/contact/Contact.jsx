@@ -1,9 +1,7 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {BsWhatsapp} from 'react-icons/bs'
-import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const form = useRef();
@@ -11,9 +9,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_3fjfb17', 'template_ky1ucaz', form.current, 'user_641J0AWGxx4qcKi835yDq')
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAIL_SERVICE,
+      import.meta.env.VITE_EMAIL_TEMPLATE,
+      form.current,
+      import.meta.env.VITE_EMAIL_KEY
+    );
 
-    e.target.reset()
+    e.target.reset();
   };
 
   return (
