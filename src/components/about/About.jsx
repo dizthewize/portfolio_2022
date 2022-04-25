@@ -29,18 +29,18 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>15+ Worldwide</small>
+              <small>10+ Worldwide</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>15+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
 
           <p>
-            For almost 5 years I have been working in software engineering obtaining various roles and contributing to a multitude of projects. I specialize in consumer-facing applications and enjoy focusing my career on building maintainable, scalable systems in which the UI communicates with the data model. My wide ranged knowledge and skill set is focused on full stack development including highly used tools in development such as docker and kubernetes for scalability and infrastructure setup.
+            For over five years I have been working in software engineering obtaining various roles and contributing to a multitude of projects. I specialize in consumer-facing applications and enjoy focusing my career on building maintainable, scalable systems in which the UI communicates with the data model. My wide ranged knowledge and skill set is focused on full stack development including highly used tools in development such as docker and kubernetes for scalability and infrastructure setup.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
