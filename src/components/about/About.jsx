@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-            For over five years I have been working in software engineering obtaining various roles and contributing to a multitude of projects. I specialize in consumer-facing applications and enjoy focusing my career on building maintainable, scalable systems in which the UI communicates with the data model. My wide ranged knowledge and skill set is focused on full stack development including highly used tools in development such as docker and kubernetes for scalability and infrastructure setup.
+            For over five years I have been working in both DevOps / Cloud and software engineering obtaining various roles contributing to a multitude of projects. I specialize in cloud infrastructure creation and maintenance. I focused my career on setting and syncing up across distributed systems in which the user can access the clients cloud architecture. My knowledge and skill set arev focused on DevOps / Cloud including highly used tools in development such as Docker and Kubernetes for containerization, scalability, and load balancing.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
